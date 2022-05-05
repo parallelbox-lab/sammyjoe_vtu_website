@@ -1,0 +1,4 @@
+[25-Jan-2021 14:54:45 UTC] PHP Fatal error:  Cannot redeclare Account_model::alltransaction() in /home2/sammyjoe/public_html/application/models/Account_model.php on line 98
+[11-Feb-2021 22:56:01 UTC] PHP Fatal error:  Cannot redeclare Account::logout() in /home2/sammyjoe/public_html/application/controllers/Account.php on line 217
+[25-May-2021 13:42:30 UTC] PHP Fatal error:  Cannot redeclare Dashboard::databundle() in /home2/sammyjoe/public_html/application/controllers/Dashboard.php on line 147
+[23-Sep-2021 15:02:07 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Get_balance has a deprecated constructor in /home2/sammyjoe/public_html/application/models/Get_balance.php on line 3

@@ -1,0 +1,32 @@
+{
+    "theme_color": "darkbkue",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "scope": ".",
+    "start_url": "/",
+    "app_name": "Sammyjoe enterprise",
+    "short_name": "Sammyjoe Enterprisr",
+    "description": "Next Generation eCommerce Solutions for Magento",
+    "icons": [
+        {
+            "src": "/asset/img/mlogo.png",
+            "sizes": "192x",
+            "type": "image/png"
+        },
+        {
+            "src": "/asset/img/mlogo.png",
+            "sizes": "256x",
+            "type": "image/png"
+        },
+        {
+            "src": "/asset/img/mlogo.png",
+            "sizes": "384x",
+            "type": "image/png"
+        },
+        {
+            "src": "/asset/img/mlogo.png",
+            "sizes": "512x",
+            "type": "image/png"
+        }
+    ]
+}

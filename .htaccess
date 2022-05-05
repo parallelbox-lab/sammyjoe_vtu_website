@@ -1,0 +1,16 @@
+RewriteEngine On
+
+RewriteCond $1  !^(index\.php|asset|images|js|styles|fonts|plugins|favicon.png)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?/$1 [L]
+Header add Access-Control-Allow-Origin "*"
+Header add Access-Control-Allow-Methods: "GET,POST,OPTIONS,DELETE,PUT"
+
+RewriteCond %{HTTP_HOST} ^www.sammyjoe\.com.ng [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.sammyjoe.com.ng [R,L]
+
+RewriteCond %{HTTP_HOST} ^sammyjoe\.com.ng [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://sammyjoe.com.ng [R,L]
